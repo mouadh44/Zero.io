@@ -256,7 +256,7 @@ h4{
 
 .slide-container{
     display: block;
-    position: relative;
+    position: absolute;
     width: 600px;
     Height: 100vh;
     text-align: center;
