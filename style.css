@@ -332,7 +332,7 @@ h4{
     transform: translateY(-50%);
     opacity: .2;
     cursor: pointer;
-    height: 100vh;
+    height: 600px;
     width: 80%;
     padding-left: 0;
     background-color: rgba(250, 235, 215, 0.3);
@@ -350,7 +350,7 @@ h4{
     opacity: .7;
     cursor: pointer;
  
-    height: 100vh;
+    height: 600px;
     width: 80%;
     border: none;
     z-index: 9999;
