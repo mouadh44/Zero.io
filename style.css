@@ -327,7 +327,7 @@ h4{
 
 .btn-prev{
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 20%;
     transform: translateY(-50%);
     opacity: .2;
@@ -338,6 +338,7 @@ h4{
     background-color: rgba(250, 235, 215, 0.3);
     border: none;
     z-index: 9999;
+   
     
 }
 
