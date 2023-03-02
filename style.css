@@ -308,7 +308,8 @@ h5{
 
 .slide-container{
     display: block;
-    position: relative;
+    position: absolute;
+top : 40%;
     width: 600px;
     text-align: center;
     transform-style: preserve-3d;
