@@ -310,7 +310,7 @@ h5{
     display: block;
     position: absolute;
 top : 40%;
-    width: 600px;
+    width: 390px;
     text-align: center;
     transform-style: preserve-3d;
     transform: perspective(1000px) ;
