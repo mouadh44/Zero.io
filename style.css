@@ -555,6 +555,7 @@ input[type="checkbox"]{
 .input-container{
     position: relative;
     display: inline-block;
+    Margin-left: 10px;
 }
 
 .input-img{
