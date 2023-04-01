@@ -319,6 +319,11 @@ h5{
     padding-top: 20px;
     padding-bottom: 10px;
     display: none;
+   Posy:fixed;
+Bottom: 0;
+Left :50%;
+Transform: translate (-50%,50%);
+Flex-wrap:nowrap;
     
 }
 
