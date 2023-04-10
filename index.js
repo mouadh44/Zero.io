@@ -16,6 +16,20 @@ function addIdToWrapper(){
   };
 };
 
+if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone === true) {
+  // running as standalone PWA (progressive web app)
+  // hide URL bar
+  window.addEventListener("load",function() {
+    setTimeout(function(){
+      // hide the address bar
+      window.scrollTo(0,1);
+    }, 0);
+  });
+} else {
+  // running as a normal website
+  // do nothing
+}
+
 const popupContainerEl =document.querySelector(".popup-container");
 const popupBtnEL =document.querySelector(".popup-btn");
 const slideContainerEL =document.querySelector(".slide-container");
